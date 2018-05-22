@@ -59,7 +59,6 @@ public class CometDDemoServlet extends HttpServlet {
     ServerAnnotationProcessor processor = new ServerAnnotationProcessor(bayeux);
     processor.process(new EchoRPC());
     processor.process(new Monitor());
-    // processor.process(new ChatService());
 
     bayeux.createChannelIfAbsent("/foo/bar/baz", new ConfigurableServerChannel.Initializer.Persistent());
 
