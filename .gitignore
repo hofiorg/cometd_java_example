@@ -1,5 +1,6 @@
 .idea/**
 *.iml
+target
 out
 gen
 !/.idea/runConfigurations/Tomcat_starten.xml
